@@ -1,1 +1,1 @@
-* * * * * python3 /home/mdufkova/docker_training/app.py
+* * * * * python3 /home/mdufkova/docker_3/app.py >> /home/mdufkova/docker_3/app.log

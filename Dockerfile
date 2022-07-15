@@ -13,7 +13,7 @@ WORKDIR /app
 
 COPY crontab.Development /var/spool/cron/crontabs/crontab.Development
 
-COPY root  /var/spool/cron/crontabs/root
+
 RUN chom +x app.py
 RUN apk add --update --no-cache bash do2unix
 
